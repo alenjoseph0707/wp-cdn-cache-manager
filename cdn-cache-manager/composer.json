@@ -1,0 +1,10 @@
+{
+  "name": "cdn-cache-manager/cdn-cache-manager",
+  "description": "WordPress plugin for automatic and manual CDN cache purging.",
+  "type": "wordpress-plugin",
+  "autoload": {
+    "psr-4": {
+      "CDNCacheManager\\": "src/"
+    }
+  }
+}
